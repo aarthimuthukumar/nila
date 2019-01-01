@@ -1,0 +1,136 @@
+body { margin: 0; }
+
+table { width: 100%; box-sizing: border-box; box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); font-family: 'Ubuntu'; /*border-collapse: collapse;*/ border-spacing: 0; background-color: #333333; }
+
+th, td { border: 1px solid rgba(255,255,255,0.1); box-sizing: border-box; }
+
+th { text-transform: uppercase; font-size:10px; font-weight:700; padding: 10px 0; color: rgba(255,255,255,0.5); background-color: #292929; letter-spacing: 1px; }
+
+td { width: 14.285%; transition: all 0.3s; font-size: 14px; color: rgba(255,255,255,0.6); font-weight: 400; font-size: 14px; padding: 1.5% 1.5% 5%; vertical-align: initial; padding: 1.5% 0 ; height: 75px; }
+
+.day:hover { background-color: rgba(0,0,0,0.1); cursor:pointer; }
+
+.today { color: #FFF; background-color: rgba(0,0,0,.25) !important; }
+
+span.number { margin-left: 10% }
+
+span.event { height: 4px; background-color: rgba(0,0,0,.3); display: block; margin: 5px 10%; border-radius: 2px; background-color: #91c33b; }
+
+span.event-multiday { margin: 5px -2px; border-radius: 0; }
+span.event-multiday-start { margin-right: -4px;  }
+span.event-multiday-finish { margin-left: -4px;  }
+
+span.event-ghost { background-color:transparent; }
+
+
+
+nav .navigation .navlink a:hover, nav a:hover {
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    -moz-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    -o-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+  }
+
+  nav .navigation .navlink, nav .navigation, nav a, nav button ul, nav button {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav .navigation .navlink a:hover, nav a:hover {
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    -moz-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    -o-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+  }
+
+  /*NAVIGATION BAR
+  
+  html,
+  nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1 1 100%;
+    -moz-box-flex: 1 1 100%;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    padding: 1em;
+    justify-content: space-between;
+  }
+  
+  nav button {
+    background: transparent;
+    border: none;
+  }
+  nav button ul {
+    list-style: none;
+    padding: 1em;
+  }
+  nav button ul .line {
+    background: #3a3a3a;
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+  }
+  nav a {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1em;
+    opacity: 0.7;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bold;
+    padding: 10px 1em;
+  }
+  nav a:hover {
+    background: rgba(255, 145, 159, 0.5);
+    opacity: 1;
+  }
+  nav .navigation {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 0 1 50%;
+    -moz-box-flex: 0 1 50%;
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+  }
+  nav .navigation .navlink {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  nav .navigation .navlink a {
+    font-size: 1.5em;
+    color: #3a3a3a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 1em;
+    opacity: 0.7;
+  }
+  nav .navigation .navlink a:hover {
+    background: rgba(255, 145, 159, 0.5);
+    opacity: 1;
+  }
+  
+  .toggled nav button {
+    visibility: visible;
+  }
+  
+  */
+
